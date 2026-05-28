@@ -1,0 +1,53 @@
+.landing {
+  text-align: center;
+  padding: 100px 24px;
+}
+
+.landing h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.btnblu {
+  background: #2563eb;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnwht {
+  background: #ffffff;
+  color: #2563eb;
+  padding: 12px 28px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: left;
+  padding: 0px 0px;
+  color: #2563eb;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.smallbluetext {
+  font-size: 12px;
+  color: #2563eb;
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
