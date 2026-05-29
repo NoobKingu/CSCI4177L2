@@ -1,16 +1,54 @@
-# React + Vite
+# CSCI4177 Lab 2
+This lab builds on top of Lab 1 by adding in the following pages: login, signup and dashboard.
+Login page performs basic email and password validation.On success, the details are stored in context and user is navidated to dashboard.
+Signup page performs basic validation of entered details. Pretends to create account, stores details in context and
+navigates to dashboard.
+Dashboard page has a navbar that displays the username, signout option. An apartment card grid is also present with
+dummy data, images, search bar, filter and sort buttons. The root is protected.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The scope of the lab has been clarified to focus on the code regarding context and root protection, we were also told
+that storing and retreiving user credentials from a file would be taught later and is not needed for this lab. Therefore
+basic validation does not match against a list of known credentials as of now, it simply validates according to common
+email, password, username requirements on websites for both login and signup.
 
-Currently, two official plugins are available:
+UI has been designed using bootstrap to roughly match what was shown in lab.
+Deployment has been done on Netlify (URL below).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+* *Date Created*: 28th May 2026
+* *Last Modification Date*: 28th May 2026
+* *Deployment URL*: <https://csci4177lab2satwikgorla.netlify.app>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Authors
+* [Satwik Gorla](st325640@dal.ca) - (Developer)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Built With
+* [Bootstrap](https://getbootstrap.com) - The CSS framework used
+* [React + Vite](Installed using NPM) - Code and Build
+
+
+
+## Sources Used
+
+
+### File Name
+
+*Lines ## - ##*
+
+```
+Copy and paste your code on lines mentioned 
+
+```
+
+The code above was created by adapting the code in [NAME](link) as shown below: 
+
+```
+Copy and paste the snippet of code you are referencing
+
+```
+
+- <!---How---> The code in [NAME](link) was implemented by...
+- <!---Why---> [NAME](link)'s Code was used because...
+- <!---How---> [NAME](link)'s Code was modified by...
