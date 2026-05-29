@@ -1,15 +1,22 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { AuthProvider } from './context/AuthContext.jsx'
 import LandingPage from './pages/LandingPage.jsx'
 import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
-<AuthProvider>
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            
-        </Routes>
-    </BrowserRouter>
-</AuthProvider>
+import Dash from './pages/Dash.jsx'
+
+function App() {
+    return (
+    <AuthProvider >
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/dashboard" element={<Dash />} />
+            </Routes>
+        </BrowserRouter>
+    </AuthProvider >
+    )
+}
+export default App;
