@@ -4,7 +4,6 @@ function LandingPage() {
   const navigate = useNavigate();
   return (
     <div>
-      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"></link>
       <nav className="navbar navbar-expand-sm">
         <div className="container-fluid">
           <h2 className="navbar-brand text-primary">TenantTrails</h2>
