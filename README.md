@@ -18,6 +18,7 @@ Deployment has been done on Netlify (URL below).
 * *Date Created*: 28th May 2026
 * *Last Modification Date*: 28th May 2026
 * *Deployment URL*: <https://csci4177lab2satwikgorla.netlify.app>
+* *GitHub Link URL*: <https://github.com/NoobKingu/CSCI4177L2>
 
 
 ## Authors
@@ -32,23 +33,4 @@ Deployment has been done on Netlify (URL below).
 
 ## Sources Used
 
-
-### File Name
-
-*Lines ## - ##*
-
-```
-Copy and paste your code on lines mentioned 
-
-```
-
-The code above was created by adapting the code in [NAME](link) as shown below: 
-
-```
-Copy and paste the snippet of code you are referencing
-
-```
-
-- <!---How---> The code in [NAME](link) was implemented by...
-- <!---Why---> [NAME](link)'s Code was used because...
-- <!---How---> [NAME](link)'s Code was modified by...
+Code given in lab2 documents were modified to fit this lab, lab 1 code was extended to fit this lab.
